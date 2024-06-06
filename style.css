@@ -1,0 +1,83 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+        background-color: rgba(255, 231, 209, 0.7);
+
+
+
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: #81614d;
+    color: #ffedde;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffedde;
+}
+
+/* Стилі для розділів */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Стилі для зображень */
+img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    filter: brightness(80%);
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+/* Стилі для зображень у рядку */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row img {
+    width: 32%;
+    height: auto;
+}
+
+
+/* Стилі для соціальних посилань */
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.footer-content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(129, 97, 77);
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 237, 222);
+}
